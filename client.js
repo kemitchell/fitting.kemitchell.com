@@ -1,3 +1,4 @@
+// Create links to all <h3>s in a new <nav> above <footer>.
 document.addEventListener('DOMContentLoaded', () => {
   const headings = document.querySelectorAll('h3')
   const nav = document.createElement('nav')
