@@ -73,3 +73,7 @@ nav ol li {
 nav ol li:after {
   content: ' ';
 }
+
+a[href] {
+  text-decoration: underline dotted;
+}
