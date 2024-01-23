@@ -9,18 +9,23 @@ header, main, footer {
 
 section { padding: 1rem; }
 
+h2{
+  border-bottom: 1px solid black;
+}
+
 #do { padding-right: 0; }
 #dont { padding-left: 0; }
 
 #do h2 { color: darkgreen; }
-#do h3:before { content: '✓ '; }
+#do h3:before { content: '✓ '; position: absolute; left: -1.25rem; }
 
 #dont h2 { color: darkred; }
-#dont h3:before { content: '✗ '; }
+#dont h3:before { content: '✗ '; position: absolute; left: -1.25rem; }
 
 h3 {
   font-variant: normal;
   font-weight: bold;
+  position: relative;
 }
 
 *:target {
