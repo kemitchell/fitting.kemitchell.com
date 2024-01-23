@@ -58,6 +58,6 @@ footer ol li:after {
   content: ' ';
 }
 
-a[href] { text-decoration: dashed; }
+a[href] { text-decoration: none; border-bottom: 1px blue dashed; }
 a[href]:visited { color: blue; }
 a[href]:hover { text-decoration: underline; }
