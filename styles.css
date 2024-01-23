@@ -51,7 +51,7 @@ footer ol {
 }
 
 footer ol li {
-  display: inline;
+  display: inline-block;
 }
 
 footer ol li:after {
