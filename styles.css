@@ -59,4 +59,5 @@ footer ol li:after {
 }
 
 a[href] { text-decoration: none; }
+a[href]:visited { color: blue; }
 a[href]:hover { text-decoration: underline; }
