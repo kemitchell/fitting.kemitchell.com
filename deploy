@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+site=fitting.kemitchell.com
+exec rsync -a --delete --exclude .git ./ $site:/var/www/$site/
