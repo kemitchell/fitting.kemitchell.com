@@ -61,7 +61,3 @@ nav ol li {
 nav ol li:after {
   content: ' ';
 }
-
-a[href] { text-decoration: dashed underline; }
-a[href]:visited { color: blue; }
-a[href]:hover { text-decoration: underline; }
