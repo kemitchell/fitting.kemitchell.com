@@ -82,3 +82,7 @@ nav ol li:after {
 a[href] {
   text-decoration: underline dotted;
 }
+
+figure img {
+  max-width: 100%;
+}
