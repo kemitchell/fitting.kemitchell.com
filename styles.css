@@ -5,7 +5,7 @@ html {
 header, main, nav, footer {
   max-width: 60rem;
   margin: 1rem auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 footer {
