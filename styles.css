@@ -55,7 +55,7 @@ footer ol li {
 }
 
 footer ol li:after {
-  content: ' ';
+  content: ' ';
 }
 
 a[href] { text-decoration: underline dashed; }
