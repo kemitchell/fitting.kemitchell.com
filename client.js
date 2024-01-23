@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
   nav.appendChild(p)
   nav.appendChild(links)
   const footer = document.querySelector('footer')
-  document.body.insertBefore(footer, nav)
+  document.body.insertBefore(nav, footer)
 })
