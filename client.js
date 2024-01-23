@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const headings = document.querySelectorAll('h3')
-  const footer = document.createElement('footer')
+  const nav = document.createElement('nav')
 
   const p = document.createElement('p')
   p.appendChild(document.createTextNode('You can link right to any of the sections above:'))
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     links.appendChild(li)
   }
 
-  footer.appendChild(p)
-  footer.appendChild(links)
-  document.body.appendChild(footer)
+  nav.appendChild(p)
+  nav.appendChild(links)
+  document.body.appendChild(nav)
 })
