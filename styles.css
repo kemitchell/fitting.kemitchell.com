@@ -7,6 +7,10 @@ header, main, nav, footer {
   margin: 1rem auto;
 }
 
+footer {
+  margin-bottom: 3rem;
+}
+
 section { padding: 1rem; }
 
 h2{
@@ -39,9 +43,8 @@ h3 {
   }
 }
 
-nav {
+footer, nav {
   border-top: 1px solid black;
-  margin-bottom: 3rem;
 }
 
 nav ol {
