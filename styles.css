@@ -24,10 +24,20 @@ h2{
 #do { padding-left: 0; }
 
 #do h2 { color: darkgreen; }
-#do h3:before { color: darkgreen; content: '✓ '; position: absolute; left: -1.25rem; }
+#do h3:before {
+  color: darkgreen;
+  content: '✓ ';
+  position: absolute;
+  left: -1.25rem;
+}
 
 #dont h2 { color: darkred; }
-#dont h3:before { color: darkred; content: '✗ '; position: absolute; left: -1.25rem; }
+#dont h3:before {
+  color: darkred;
+  content: '✗ ';
+  left: -1.25rem;
+  position: absolute;
+}
 
 h3 {
   font-variant: normal;
