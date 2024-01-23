@@ -1,8 +1,56 @@
+html {
+  font-family: sans-serif;
+}
+
+header, main, footer {
+  max-width: 60rem;
+  margin: 1rem auto;
+}
+
 section { padding: 1rem; }
 
-@media (min-width:768px) {
+#do { padding-right: 0; }
+#dont { padding-left: 0; }
+
+#do h2 { color: darkgreen; }
+#do h3:before { content: '✓ '; }
+
+#dont h2 { color: darkred; }
+#dont h3:before { content: '✗ '; }
+
+h3 {
+  font-variant: normal;
+  font-weight: bold;
+}
+
+*:target {
+  background: rgba(255, 255, 0, 0.5);
+}
+
+@media (min-width: 30rem) {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
+
+footer {
+  margin-bottom: 3rem;
+}
+
+footer ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ol li {
+  display: inline;
+}
+
+footer ol li:after {
+  content: ' ';
+}
+
+a[href] { text-decoration: none; }
+a[href]:hover { text-decoration: underline; }

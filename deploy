@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 site=fitting.kemitchell.com
-exec rsync -a --delete --exclude .git ./ $site:/var/www/$site/
+exec rsync --checksum --out-format "%n" --recursive --delete --exclude deploy --exclude .git "./" "$site:/var/www/$site/"
