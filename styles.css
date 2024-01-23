@@ -17,8 +17,8 @@ h2{
   border-bottom: 1px solid black;
 }
 
-#do { padding-right: 0; }
-#dont { padding-left: 0; }
+#dont { padding-right: 0; }
+#do { padding-left: 0; }
 
 #do h2 { color: darkgreen; }
 #do h3:before { color: darkgreen; content: '✓ '; position: absolute; left: -1.25rem; }
