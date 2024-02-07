@@ -79,9 +79,6 @@ nav ol li:after {
   content: ' ';
 }
 
-a[href] { text-decoration: none; }
-a[href]:hover { text-decoration: underline; }
-
 figure img {
   max-width: 100%;
 }
